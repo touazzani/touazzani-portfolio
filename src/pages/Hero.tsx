@@ -5,8 +5,8 @@ import teddy from "../assets/teddy.png";
 
 const Hero = () => {
   return (
-    <section className="relative bg-purple-200 h-lvh">
-      <div className="container mx-auto h-full flex items-center relative">
+    <section className="relative bg-purple-200 h-screen overflow-clip">
+      <div className="container lg:px-12 mx-auto h-full flex items-center relative">
         <div className="md:w-1/2 flex flex-col gap-6 z-10 items-center md:items-baseline">
           <div className="flex flex-col gap-2">
             <h1 className="font-bold text-7xl text-center md:text-left">
@@ -21,11 +21,12 @@ const Hero = () => {
             Read more
           </button>
         </div>
-        <img
-          src={teddy}
-          alt="Teddy"
-          className="absolute w-auto h-[85vh] bottom-0 md:z-10 md:-right-44 lg:right-20 hidden md:block"
-        />
+<img
+  src={teddy}
+  alt="Teddy"
+  className="absolute w-auto h-[85vh] bottom-0 md:z-10 md:-right-44 lg:right-20 hidden md:block [mask-image:linear-gradient(to_top,transparent_0%,black_5%)]"
+/>
+
       </div>
 
       <div className="absolute top-10 left-0 w-full rotate-180 opacity-30">
