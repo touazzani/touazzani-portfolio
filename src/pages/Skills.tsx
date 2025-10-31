@@ -40,9 +40,9 @@ const Skills: React.FC = () => {
   return (
     <section
       onMouseMove={handleMouseMove}
-      className="bg-[linear-gradient(to_bottom,_#C5B6D7_0%,_oklch(20.5%_0_0)_5%)] min-h-screen py-20"
+      className="bg-[linear-gradient(to_bottom,_#C5B6D7_0%,_oklch(20.5%_0_0)_5%)] min-h-screen py-20 flex items-center justify-center w-full"
     >
-      <div className="container lg:px-12">
+      <div className="container">
         <h1 className="text-white font-bold text-5xl text-center mb-10">
           Mes compétences
         </h1>

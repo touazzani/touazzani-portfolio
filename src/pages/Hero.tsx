@@ -6,7 +6,7 @@ import teddy from "../assets/teddy.png";
 const Hero = () => {
   return (
     <section className="relative bg-purple-200 h-screen overflow-clip">
-      <div className="container lg:px-12 mx-auto h-full flex items-center relative">
+      <div className="container mx-auto h-full flex items-center relative">
         <div className="md:w-1/2 flex flex-col gap-6 z-10 items-center md:items-baseline">
           <div className="flex flex-col gap-2">
             <h1 className="font-bold text-7xl text-center md:text-left">
