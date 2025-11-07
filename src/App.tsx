@@ -1,6 +1,8 @@
-import Hero from "./pages/Hero";
-import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
+import Hero from "./sections/Hero";
+import Projects from "./sections/Projects";
+import Skills from "./sections/Skills";
+import Education from "./sections/Education";
+import Work from "./sections/Work";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
+      <Education />
+      <Work />
     </>
   );
 }
