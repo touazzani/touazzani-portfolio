@@ -9,6 +9,7 @@ export const education = {
         place : "Villejuif",
         dates : "2020 - 2023",
         image: efrei,
+    },
     exchange : {
         title : "Échange universitaire",
         school : "University of Bradford",
