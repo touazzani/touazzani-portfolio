@@ -97,13 +97,13 @@ const Projects = () => {
 
   return (
 // J'utilise votre <section> et sa couleur de fond
-    <section className="bg-black min-h-screen  ">
+    <section className="bg-black">
 
       {/* Conteneur principal du carrousel (le "viewport") */}
-      <div className="mx-auto aspect-video relative overflow-hidden shadow-2xl">
+      <div className="h-[70vh] md:h-screen relative overflow-hidden shadow-2xl">
 
         <div className="container">            
-          <h1 className="text-white font-bold text-3xl md:text-5xl text-center pb-8 md:pb-12 absolute md:py-16 top-0 z-10">
+          <h1 className="text-white font-bold text-3xl md:text-5xl text-center pt-8 absolute md:py-16 top-0 z-10">
             Mes projets
           </h1>
         </div>
